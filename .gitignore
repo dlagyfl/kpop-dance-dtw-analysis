@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# 영상 파일 제외 (용량 큼)
+data/videos/
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+
+# 대용량 모델 파일
+data/*.task
